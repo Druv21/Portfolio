@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(45, 45, 45,0.2);
+}
+.r{
+    border: 4px solid black;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+.a{
+    text-align: center;
+}
+p.b{
+    text-align: center;
+    font-size: 2vw;
+    color: blue;
+}
+p.d{
+    text-align: center;
+    font-size: 2vw;
+    padding-top: 2vw;
+}
+div.k{
+    text-align: center;
+    padding-bottom: 2vw;
+}
+.btn{
+    font-size: 1.5vw;
+}
+div.i{
+    background-color:lightblue;
+    padding-bottom: 3vw;
+    box-shadow: 10px 0px 20px 0px yellow;
+    font-size: 1.3vw;
+}
+div.i:hover{
+    background-color: rgb(10, 20, 90,0.7);
+}
+pre.g{
+    padding-left: 6.5vw;
+    padding-right: 6.5vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+#a1{
+    padding-left: 0%;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 2.3vw;
+}
+#a2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2.3vw;
+}
+h2.o{
+    text-align: center;
+    padding-top: 2.2vw;
+    font-size: 2.3vw;
+}
+.p{
+    font-size: 1.5vw;
+}
+div.h{
+    background-color: rgb(60, 60, 60,0.6);
+    box-shadow: 10px 0px 20px 0px black;
+}
+div.h:hover{
+    background-color: rgb(10, 20, 90,0.7);
+}
+div.e{
+    text-align: center;
+    background-color: rgb(60, 60, 60,0.6);
+    box-shadow: 10px 0px 20px 0px blue;
+    padding-bottom: 20px;
+}
+div.e:hover{
+    background-color: lightblue;
+}
+div.m{
+    box-shadow: 10px 0px 20px 0px yellow;
+    background-color: lightblue;
+}
+pre.n{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vw;
+    padding-left: 6.5vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+div.m:hover{
+    background-color: rgb(10, 20, 90,0.7);
+}
+div.c{
+    font-size: 2.2vw;
+    text-align: center;
+    padding-bottom: 30px;
+    color: red
+}
+div.j{
+    text-align: center; 
+}
+div.q{
+    font-size: 2.2vw;
+}
+pre.j{
+    font-size: 1.5vw;
+    padding-left: 6vw;
+    padding-right: 12vw;
+    background-color: rgb(10,10,90,0.4);
+    box-shadow: 10px 0px 20px 0px black;
+    color: crimson;
+}
+.responsive{
+    height: auto;
+    max-width: 14vw;
+    border: 4px solid black;
+}
+div.l{
+    text-align: center;
+    background: linear-gradient(to right bottom,white,blue);
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+div.m{
+    background-color: rgb(10, 10, 90,0.6);
+}
+form .btn{
+    background-color: blue;
+    color: white;
+    margin-left: 50%;
+}
+.s{
+    padding-bottom: 2vw;
+}
+.btn{
+    margin-left: 45%;
+    border: 3px solid blue;
+    background-color: white;
+    color: black;
+}
+.btn1{
+    margin-left: 0%;
+    border: 3px solid blue;
+    background-color: white;
+    color: black;
+}
+.t{
+    max-width: 13vw;
+}
+textarea{
+    padding: 1.2vw;
+}
