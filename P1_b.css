@@ -37,7 +37,6 @@ div.i{
     box-shadow: 10px 0px 20px 0px black;
     font-size: 1.3vw;
 }
-
 div.i:hover{
     background-color: rgb(10, 20, 90,0.5);
     transition-duration: 0.7s;
@@ -47,24 +46,36 @@ p.g{
     font-size: 1.6vw;
     font-family: 'Times New Roman', Times, serif;
 }
+@keyframes movecontent{
+    100%{
+        transform: translateY(-15px);
+        opacity: 1;
+    }
+}
 #a1{
     padding-left: 0%;
     padding-top: 40px;
     text-align: center;
     font-size: 2.3vw;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    opacity: 0;
+    animation: movecontent 0.9s ease-in 0.2s forwards;
 }
 #a2{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 2.3vw;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    opacity: 0;
+    animation: movecontent 0.9s ease-in 0.6s forwards;
+}
+#a3{
     text-align: center;
     padding-top: 30px;
     font-size: 2.3vw;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
-}
-#a3{
-    text-align: center;
-    padding-top: 2.2vw;
-    font-size: 2.3vw;
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    opacity: 0;
+    animation: movecontent 0.9s ease-in 1.0s forwards;
 }
 .p{
     font-size: 1.5vw;
@@ -99,7 +110,7 @@ pre.n{
 div.m{
     background: linear-gradient(to right bottom, #68EACC 0%,#497BEB 100%);
     box-shadow: 10px 0px 20px 0px black;
-     background-color: lightblue;
+    background-color: lightblue;
  }
 div.m:hover{
     background-color: rgba(67, 79, 167, 0.7);
@@ -180,6 +191,8 @@ form .btn{
     padding-bottom: 2vw;
     font-size: 2.3vw;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    opacity: 0;
+    animation: movecontent 0.9s ease-in 1.4s forwards;
 }
 .btn{
     margin-left: 44%;
@@ -213,4 +226,8 @@ form .btn{
 }
 .q a{
     margin: 60px;
+}
+#hov{
+    transition-duration: 0.7s;
+    transform: scale(0.9);
 }
